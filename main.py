@@ -67,6 +67,7 @@ def lz78_encode():
     return encoded_string
 
 root = tk.Tk()
+#root.title = "Lempel Ziv"
 root.geometry(f"{WIDTH}x{HEIGHT}")
 entry = tk.Text(root, width=30, height=10, font=('Arial', 12))
 entry.pack()
